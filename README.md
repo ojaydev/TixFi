@@ -6,7 +6,6 @@
 
 - [TixFi] - Forked from Feamcor(Bileto)
   - [Introduction](#introduction)
-  - [](#)
   - [High-Level Solution](#high-level-solution)
   - [Try TixFi](#try-TixFi)
   - [Roles](#roles)
