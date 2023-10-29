@@ -4,7 +4,7 @@
 
 [TixFi] is a decentralized ticket store for the Ethereum blockchain.
 
-- [TixFi] - Forked from Feamcor(.TixFi)
+- [TixFi] - Forked from Feamcor(Bileto)
   - [Introduction](#introduction)
   - [Origins](#origins)
   - [High-Level Solution](#high-level-solution)
