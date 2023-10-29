@@ -6,7 +6,7 @@
 
 - [TixFi] - Forked from Feamcor(Bileto)
   - [Introduction](#introduction)
-  - [Origins](#origins)
+  - [](#)
   - [High-Level Solution](#high-level-solution)
   - [Try TixFi](#try-TixFi)
   - [Roles](#roles)
@@ -30,12 +30,6 @@
 **TixFi** can be deployed to an [Ethereum](https://ethereum.org) blockchain, be it the public [mainnet](https://etherscan.io), a public testnet like [Rinkeby](https://rinkeby.etherscan.io), a private network, or on a local development blockchain like [Ganache](https://truffleframework.com/ganache).
 
 As currency for ticket purchases, so far, TixFi uses Ethereum's native [Ether](https://www.ethereum.org/ether).
-
-## Origins
-
-**TixFi** was initially developed as [my](https://github.com/feamcor) [final project](https://github.com/dev-bootcamp-2019/final-project-feamcor) for the [ConsenSys Academy Developer Program Bootcamp](https://consensys.net/academy/bootcamp), cohort of [Fall/Winter 2018](https://courses.consensys.net/courses/course-v1:ConsenSysAcademy+2018DP+2/about).
-
-This repo, as a way of learning and improving my skills on blockchain development, holds all the changes performed after the bootcamp: bug fixing, refactoring, new features, adoption of best practices and improvements on the user experience.
 
 ## High-Level Solution
 
