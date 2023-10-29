@@ -1,14 +1,14 @@
-# BILETO
+# TixFi
 
-[![Build Status](https://travis-ci.org/feamcor/bileto.svg?branch=master)](https://travis-ci.org/feamcor/bileto)
+[![Build Status](https://travis-ci.org/feamcor/TixFi.svg?branch=master)](https://travis-ci.org/feamcor/TixFi)
 
-[Bileto](https://en.wiktionary.org/wiki/bileto) is a decentralized ticket store for the Ethereum blockchain.
+[TixFi] is a decentralized ticket store for the Ethereum blockchain.
 
-- [BILETO] - Forked from Feamcor(#bileto)
+- [TixFi] - Forked from Feamcor(.TixFi)
   - [Introduction](#introduction)
   - [Origins](#origins)
   - [High-Level Solution](#high-level-solution)
-  - [Try Bileto](#try-bileto)
+  - [Try TixFi](#try-TixFi)
   - [Roles](#roles)
   - [States](#states)
     - [Store](#store)
@@ -25,15 +25,15 @@
 
 ## Introduction
 
-**Bileto** is a set of smart contracts, written in [Solidity](https://solidity.readthedocs.io/en/v0.5.6/index.html) [0.5.6](https://github.com/ethereum/solidity/releases/tag/v0.5.6), which implement the business of a ticket store. It is accompanied by a decentralized [web3](https://blockchainhub.net/web3-decentralized-web)-enabled application ([DApp](https://ethereum.stackexchange.com/questions/383/what-is-a-dapp)) where users, according to their roles, can manage the store, its events and perform ticket purchases, cancellations, refunds and event check-in.
+**TixFi** is a set of smart contracts, written in [Solidity](https://solidity.readthedocs.io/en/v0.5.6/index.html) [0.5.6](https://github.com/ethereum/solidity/releases/tag/v0.5.6), which implement the business of a ticket store. It is accompanied by a decentralized [web3](https://blockchainhub.net/web3-decentralized-web)-enabled application ([DApp](https://ethereum.stackexchange.com/questions/383/what-is-a-dapp)) where users, according to their roles, can manage the store, its events and perform ticket purchases, cancellations, refunds and event check-in.
 
-**Bileto** can be deployed to an [Ethereum](https://ethereum.org) blockchain, be it the public [mainnet](https://etherscan.io), a public testnet like [Rinkeby](https://rinkeby.etherscan.io), a private network, or on a local development blockchain like [Ganache](https://truffleframework.com/ganache).
+**TixFi** can be deployed to an [Ethereum](https://ethereum.org) blockchain, be it the public [mainnet](https://etherscan.io), a public testnet like [Rinkeby](https://rinkeby.etherscan.io), a private network, or on a local development blockchain like [Ganache](https://truffleframework.com/ganache).
 
-As currency for ticket purchases, so far, Bileto uses Ethereum's native [Ether](https://www.ethereum.org/ether).
+As currency for ticket purchases, so far, TixFi uses Ethereum's native [Ether](https://www.ethereum.org/ether).
 
 ## Origins
 
-**Bileto** was initially developed as [my](https://github.com/feamcor) [final project](https://github.com/dev-bootcamp-2019/final-project-feamcor) for the [ConsenSys Academy Developer Program Bootcamp](https://consensys.net/academy/bootcamp), cohort of [Fall/Winter 2018](https://courses.consensys.net/courses/course-v1:ConsenSysAcademy+2018DP+2/about).
+**TixFi** was initially developed as [my](https://github.com/feamcor) [final project](https://github.com/dev-bootcamp-2019/final-project-feamcor) for the [ConsenSys Academy Developer Program Bootcamp](https://consensys.net/academy/bootcamp), cohort of [Fall/Winter 2018](https://courses.consensys.net/courses/course-v1:ConsenSysAcademy+2018DP+2/about).
 
 This repo, as a way of learning and improving my skills on blockchain development, holds all the changes performed after the bootcamp: bug fixing, refactoring, new features, adoption of best practices and improvements on the user experience.
 
@@ -41,9 +41,9 @@ This repo, as a way of learning and improving my skills on blockchain developmen
 
 TBD
 
-## Try Bileto
+## Try TixFi
 
-Bileto is deployed to Rinkeby testnet (see it on [Etherscan](https://rinkeby.etherscan.io/)).
+TixFi is deployed to Rinkeby testnet (see it on [Etherscan](https://rinkeby.etherscan.io/)).
 Its DApp is deployed to IPFS and can be accessed [here](#).
 
 ## Roles
@@ -57,7 +57,7 @@ Any account, at any time, can be associated to many roles. For instance, the sto
 
 ## States
 
-![Bileto Smart Contract State Diagram](docs/bileto_state_diagram.svg)
+![TixFi Smart Contract State Diagram](docs/TixFi_state_diagram.svg)
 
 ### Store
 
@@ -129,7 +129,7 @@ TBD
 -   [x] Replace Store emergency stop by OpenZeppelin [Pausable](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/lifecycle/Pausable.sol).
 -   [ ] Introduce explicit roles by OpenZeppelin [Roles](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/access/Roles.sol).
 -   [ ] Use an Oracle to bring data from external sources.
--   [ ] Turn Bileto into a [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization).
+-   [ ] Turn TixFi into a [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization).
 -   [ ] Allow different kinds of tickets, with distinct prices.
 -   [ ] Allow assignment of seats.
 -   [ ] Allow to increase or decrease number of tickets available for sale.
